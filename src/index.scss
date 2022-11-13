@@ -2,13 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+@import './fonts.scss';
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Proxima Nova', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  // *  Not necessarily. Font weight value goes in tailwind classes and sets here. It's default value
+  font-weight: 400;
 }
 
 code {
