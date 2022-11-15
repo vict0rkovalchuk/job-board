@@ -2,7 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-@import './fonts/fonts.scss';
+@import './fonts/scss/fonts.scss';
+@import './fonts/scss/icons.scss';
 
 body {
   margin: 0;
