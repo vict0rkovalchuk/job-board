@@ -5,6 +5,10 @@
 @import './fonts/scss/fonts.scss';
 @import './fonts/scss/icons.scss';
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   font-family: 'Proxima Nova', sans-serif;

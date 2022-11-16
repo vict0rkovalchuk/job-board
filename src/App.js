@@ -1,7 +1,9 @@
+import JobBoard from './components/jobBoard/JobBoard';
+
 function App() {
   return (
     <div className="App">
-      <h1 className="text-3xl text-center underline">Hello world!</h1>
+      <JobBoard />
     </div>
   );
 }
