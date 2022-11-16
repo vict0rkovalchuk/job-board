@@ -12,7 +12,8 @@ module.exports = {
         384564: '#384564'
       },
       backgroundColor: {
-        'sky-blue': '#E6E9F2'
+        'sky-blue': '#E6E9F2',
+        EFF0F5: '#EFF0F5'
       },
       spacing: {
         '9px': '9px',

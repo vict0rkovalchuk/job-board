@@ -2,7 +2,7 @@ import hospital from '../../imgs/hospital-icon.png';
 
 export default function JobItem() {
   return (
-    <div className="jobitem min-h-164px bg-white rounded-lg px-4 py-6 mx-5 shadow-jobitem sm:mx-0">
+    <div className="jobitem min-h-164px bg-white sm:bg-EFF0F5 rounded-lg px-4 py-6 mx-5 shadow-jobitem sm:mx-0">
       <div className="jobitem__content flex justify-between sm:flex-col-reverse">
         <div className="jobitem__about flex gap-26px sm:mt-4 sm:gap-19px">
           <div className="jobitem__img shrink-0  h-85px w-85px sm:h-66px sm:w-66px">
