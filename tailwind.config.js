@@ -22,15 +22,20 @@ module.exports = {
       },
       width: {
         '85px': '85px',
-        '66px': '66px'
+        '66px': '66px',
+        '280px': '280px',
+        '360px': '360px'
       },
       height: {
         '85px': '85px',
-        '66px': '66px'
+        '66px': '66px',
+        '280px': '280px',
+        '360px': '360px'
       },
       minHeight: {
         '164px': '164px',
-        '100vh': '100vh'
+        '100vh': '100vh',
+        '100vhminus58px': 'calc(100vh - 29px - 29px)'
       },
       maxWidth: {
         '100vw': '100vw',
@@ -51,7 +56,7 @@ module.exports = {
         'sm-h2': '-0.5625px'
       },
       minWidth: {
-        '138px': '138px',
+        '146px': '146px',
         '45px': '45px'
       },
       boxShadow: {
