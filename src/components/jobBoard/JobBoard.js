@@ -26,8 +26,6 @@ export default function JobBoard() {
   };
 
   const jobList = Array.from(jobs).map((item, i) => {
-    // console.log(new Date(item.createdAt));
-    // console.log(new Date());
     return (
       <JobItem
         key={item.id}
