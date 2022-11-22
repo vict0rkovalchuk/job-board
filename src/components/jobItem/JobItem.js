@@ -32,6 +32,8 @@ export default function JobItem({
         setLoading(false);
       })
       .catch(e => {
+        setLoading(false);
+        setLocation('Some Ocean/Sea');
         setError(e.message);
       });
     countPuplishedDate(dataPuplished);
@@ -79,7 +81,7 @@ export default function JobItem({
     }
   };
 
-  const errorMessage = error ? 'Somethig went wrong' : null;
+  const errorMessage = error ? 'Something went wrong...' : null;
   const spinner = loading ? 'Loading...' : null;
   const currentLocation = !(loading || error) ? location : null;
 
