@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/job-board/static/css/main.6b7eb8ba.css",
-    "main.js": "/job-board/static/js/main.664cc9ac.js",
+    "main.css": "/job-board/static/css/main.711181f6.css",
+    "main.js": "/job-board/static/js/main.b84c7ab1.js",
     "static/media/error.gif": "/job-board/static/media/error.1be1708dc51eb6942369.gif",
     "static/media/Roboto-Regular.eot": "/job-board/static/media/Roboto-Regular.30b57652c88c5dbd65de.eot",
     "static/media/Roboto-Regular.ttf": "/job-board/static/media/Roboto-Regular.25e40da956314b12d333.ttf",
@@ -14,19 +14,21 @@
     "static/media/ProximaNova-Bold.eot": "/job-board/static/media/ProximaNova-Bold.787088b281e017f8c449.eot",
     "static/media/ProximaNova-Bold.ttf": "/job-board/static/media/ProximaNova-Bold.7722451a8c88b6100185.ttf",
     "static/media/Roboto-Regular.woff": "/job-board/static/media/Roboto-Regular.31012f9b3e3da44f87e8.woff",
+    "static/media/people.png": "/job-board/static/media/people.aa4316fc743e165b7efc.png",
     "static/media/ProximaNova-Light.woff": "/job-board/static/media/ProximaNova-Light.6f5ad2ca80abea2876d4.woff",
     "static/media/ProximaNova-Regular.woff": "/job-board/static/media/ProximaNova-Regular.99528640efded3e12591.woff",
     "static/media/ProximaNova-Bold.woff": "/job-board/static/media/ProximaNova-Bold.1f267da183b3d4fe3d5b.woff",
     "static/media/ProximaNova-Semibold.woff": "/job-board/static/media/ProximaNova-Semibold.a71877a1eef65838ed4c.woff",
+    "static/media/map.jpg": "/job-board/static/media/map.313c0fb3b55ae98a9add.jpg",
     "static/media/icons.eot": "/job-board/static/media/icons.cd9129527b4c2038337c.eot",
     "static/media/icons.woff": "/job-board/static/media/icons.0e41d2d0214255c5bb0c.woff",
     "static/media/icons.ttf": "/job-board/static/media/icons.53a6d15d989ab1741b3e.ttf",
     "index.html": "/job-board/index.html",
-    "main.6b7eb8ba.css.map": "/job-board/static/css/main.6b7eb8ba.css.map",
-    "main.664cc9ac.js.map": "/job-board/static/js/main.664cc9ac.js.map"
+    "main.711181f6.css.map": "/job-board/static/css/main.711181f6.css.map",
+    "main.b84c7ab1.js.map": "/job-board/static/js/main.b84c7ab1.js.map"
   },
   "entrypoints": [
-    "static/css/main.6b7eb8ba.css",
-    "static/js/main.664cc9ac.js"
+    "static/css/main.711181f6.css",
+    "static/js/main.b84c7ab1.js"
   ]
 }
