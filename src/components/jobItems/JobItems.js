@@ -18,9 +18,7 @@ export default function JobItems(props) {
   const itemsPerPage = 4;
 
   useEffect(() => {
-    console.log(itemOffset);
     const endOffset = itemOffset + itemsPerPage;
-    console.log(`Loading items from ${itemOffset} to ${endOffset}`);
     setCurrentItems(data.slice(itemOffset, endOffset));
     setPageCount(Math.ceil(data.length / itemsPerPage));
 

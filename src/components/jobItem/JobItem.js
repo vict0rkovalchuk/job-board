@@ -1,5 +1,7 @@
 import { useState, useEffect } from 'react';
 
+import { Link } from 'react-router-dom';
+
 import { Animated } from 'react-animated-css';
 import WOW from 'wowjs';
 
@@ -98,12 +100,13 @@ export default function JobItem({
               />
             </div>
             <div className="jobitem__descr">
-              <h2
+              <Link
+                to="/job-board/details"
                 className="jobitem__descr-title font-bold text-2xl leading-8 tracking-h2 text-3A4562 sm:text-lg sm:font-normal sm:leading-6 sm:tracking-sm-h2 hover:underline cursor-pointer"
                 data-id={id}
               >
                 {title}
-              </h2>
+              </Link>
               <h3 className="jobitem__descr-subtitle mt-2 tracking-subtitle text-878D9D self-stretch">
                 {subtitle}
               </h3>
