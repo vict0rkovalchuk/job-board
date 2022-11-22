@@ -1,0 +1,80 @@
+// ! This styles can't be added using tailwind css. It's modified default react-paginate styles
+
+.previous,
+.next {
+  position: relative;
+}
+
+.previous {
+  border-radius: 10.4px 0 0 10.4px;
+}
+
+.next {
+  border-radius: 0 10.4px 10.4px 0;
+}
+
+.previous ._icon-arrow-prev::after,
+.next ._icon-arrow-next::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0px;
+  width: 1.3px;
+  height: 31.2px;
+  background-color: #dee3ef;
+}
+
+.pagination {
+  li {
+    position: relative;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &:nth-child(2) {
+      padding-left: 55.45px;
+      @media (max-width: 639px) {
+        border-radius: 10.4px 0 0 10.4px;
+        padding-left: 25.45px;
+      }
+    }
+    &:nth-last-child(2) {
+      padding-right: 55.45px;
+      &:after {
+        left: 0;
+      }
+      @media (max-width: 639px) {
+        border-radius: 0 10.4px 10.4px 0;
+        padding-right: 25.45px;
+      }
+    }
+    &.break {
+      color: #70778b;
+      font-size: 20.8px;
+      font-weight: 700;
+      line-height: 25px;
+    }
+    &.selected:after {
+      content: '';
+      background: #5876c5;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      height: 2.6px;
+      width: 31px;
+    }
+  }
+
+  &.pagination-start {
+    li:nth-child(2) {
+      border-radius: 10.4px 0 0 10.4px;
+    }
+  }
+  &.pagination-end {
+    li:nth-last-child(2) {
+      border-radius: 0 10.4px 10.4px 0;
+    }
+  }
+}

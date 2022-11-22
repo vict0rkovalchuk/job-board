@@ -97,7 +97,7 @@ export default function JobItem({
             </div>
             <div className="jobitem__descr">
               <h2
-                className="jobitem__descr-title font-bold text-2xl leading-8 tracking-h2 text-3A4562 sm:text-lg sm:font-normal sm:leading-6 sm:tracking-sm-h2"
+                className="jobitem__descr-title font-bold text-2xl leading-8 tracking-h2 text-3A4562 sm:text-lg sm:font-normal sm:leading-6 sm:tracking-sm-h2 hover:underline cursor-pointer"
                 data-id={id}
               >
                 {title}
@@ -124,7 +124,9 @@ export default function JobItem({
               <div className="star _icon-star"></div>
             </div>
             <div className="jobitem__save-icon flex flex-col justify-between min-w-146px lg:gap-50px sm:min-w-45px">
-              <div className="_icon-save flex justify-end text-70778B text-xl lg:justify-center sm:hidden"></div>
+              <div className="flex justify-end">
+                <div className="_icon-save flex justify-end text-70778B text-xl lg:justify-center sm:hidden cursor-pointer"></div>
+              </div>
               <p className="data tracking-subtitle text-878D9D sm:font-light sm:text-sm sm:leading-4 sm:text-right">
                 {publishedDate}
               </p>
