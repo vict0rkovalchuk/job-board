@@ -19,7 +19,6 @@ export default function JobBoard() {
 
   const onJobsLoaded = jobs => {
     setJobs(jobs);
-    console.log(jobs);
   };
 
   const updateJobs = () => {
