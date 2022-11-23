@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/job-board/static/css/main.711181f6.css",
-    "main.js": "/job-board/static/js/main.b84c7ab1.js",
+    "main.css": "/job-board/static/css/main.4d9a34c0.css",
+    "main.js": "/job-board/static/js/main.4ba1c6ad.js",
     "static/media/error.gif": "/job-board/static/media/error.1be1708dc51eb6942369.gif",
     "static/media/Roboto-Regular.eot": "/job-board/static/media/Roboto-Regular.30b57652c88c5dbd65de.eot",
     "static/media/Roboto-Regular.ttf": "/job-board/static/media/Roboto-Regular.25e40da956314b12d333.ttf",
@@ -14,7 +14,6 @@
     "static/media/ProximaNova-Bold.eot": "/job-board/static/media/ProximaNova-Bold.787088b281e017f8c449.eot",
     "static/media/ProximaNova-Bold.ttf": "/job-board/static/media/ProximaNova-Bold.7722451a8c88b6100185.ttf",
     "static/media/Roboto-Regular.woff": "/job-board/static/media/Roboto-Regular.31012f9b3e3da44f87e8.woff",
-    "static/media/people.png": "/job-board/static/media/people.aa4316fc743e165b7efc.png",
     "static/media/ProximaNova-Light.woff": "/job-board/static/media/ProximaNova-Light.6f5ad2ca80abea2876d4.woff",
     "static/media/ProximaNova-Regular.woff": "/job-board/static/media/ProximaNova-Regular.99528640efded3e12591.woff",
     "static/media/ProximaNova-Bold.woff": "/job-board/static/media/ProximaNova-Bold.1f267da183b3d4fe3d5b.woff",
@@ -24,11 +23,11 @@
     "static/media/icons.woff": "/job-board/static/media/icons.0e41d2d0214255c5bb0c.woff",
     "static/media/icons.ttf": "/job-board/static/media/icons.53a6d15d989ab1741b3e.ttf",
     "index.html": "/job-board/index.html",
-    "main.711181f6.css.map": "/job-board/static/css/main.711181f6.css.map",
-    "main.b84c7ab1.js.map": "/job-board/static/js/main.b84c7ab1.js.map"
+    "main.4d9a34c0.css.map": "/job-board/static/css/main.4d9a34c0.css.map",
+    "main.4ba1c6ad.js.map": "/job-board/static/js/main.4ba1c6ad.js.map"
   },
   "entrypoints": [
-    "static/css/main.711181f6.css",
-    "static/js/main.b84c7ab1.js"
+    "static/css/main.4d9a34c0.css",
+    "static/js/main.4ba1c6ad.js"
   ]
 }
