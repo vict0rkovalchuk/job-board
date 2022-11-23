@@ -93,6 +93,9 @@ module.exports = {
       },
 
       screens: {
+        xl: { max: '1280px' },
+        // => @media (max-width: 1280px) { ... }
+
         lg: { max: '1023px', min: '639px' },
         // => @media (max-width: 1023px) { ... }
 
